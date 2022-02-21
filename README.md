@@ -1,1 +1,0 @@
-# soonseok2.github.io
