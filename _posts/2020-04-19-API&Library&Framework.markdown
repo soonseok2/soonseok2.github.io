@@ -49,6 +49,6 @@ Framework 는 보통 API, Library 들의 집합으로 제공되며, 사용자가
 
 
 # Summary
-
+> 마치면서..
 요약하자면, API 는 Application 과의 소통 방법, Library 는 기능을 가진 코드 뭉치들, Framework 는 Application 설계용 틀이라고 볼 수 있다.
 사용자는 API 를 통해 Library 들을 사용하며 Framework 뼈대에 살과 근육을 붙이면서 특정 Application 을 만들어낸다.
