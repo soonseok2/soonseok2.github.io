@@ -47,8 +47,8 @@ API 와 구분이 명확하지는 않아서 종종 혼동 될 수도 있다.
 전반적으로 Framework 의 경우에는 API 에 비하여 내 Application 에 끼치는 영향이 상대적으로 더 크다.
 Framework 는 보통 API, Library 들의 집합으로 제공되며, 사용자가 이용할 수 있는 부분이 한정되기도 한다.
 
-
+<br/>
 # Summary
-> 마치면서..
+
 요약하자면, API 는 Application 과의 소통 방법, Library 는 기능을 가진 코드 뭉치들, Framework 는 Application 설계용 틀이라고 볼 수 있다.
 사용자는 API 를 통해 Library 들을 사용하며 Framework 뼈대에 살과 근육을 붙이면서 특정 Application 을 만들어낸다.
