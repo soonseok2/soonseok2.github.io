@@ -45,14 +45,14 @@ Process 의 Code, Data, Heap 메모리를 공유하여 사용하며, 자체적�
 > 개인주의와 연대책임
 
 개념을 헷갈리지 않기 위해, 한 어플리케이션이 여러 동작을 수행하는 웹 브라우저 ( Chrome, Internet Explorer ) 의 예를 들어보자.
-<br/>
+<br/><br/>
 Chrome 은 Multi-process 의 예시를 보여주는데, Chrome 의 각 탭들은 사실은 각각 하나의 Process 이다.
 Chrome 은 fork() 를 통해 Child Process 를 만들어내고, 모두 각자의 Code, Data, Heap, Stack 메모리 공간을 확보하게 된다.
 어떤 탭은 노래를 틀고, 어떤 탭은 인터넷을 보는 등의 행위를 할텐데, 이 때 계속해서 Context switching 이 일어나게 된다.
 이렇게 메모리 공간이 분리되어 있기 때문에, 각 Process 들은 독립적이고, Context switching 비용은 꽤나 클 것이다.
 또 Process 들이 서로의 정보가 필요할 때는 Inter Process Communication 으로 통신해야 한다.
 Chrome 은 한 탭이 응답불가 상태가 되어도, 다른 탭은 멀쩡하게 동작하는 것을 알 수 있다.
-<br/>
+<br/><br/>
 반면에 IE 는 Multi-thread 방식을 사용하고 있다. IE 의 여러 탭들은 Thread 들이다.
 각 Thread 들은 자신이 속한 process 의 Code, Data, Heap 영역을 공유하며, 오직 Stack 공간만 가진다고 하였다.
 따라서 완전히 독립적이지 않고, Context switching 비용은 상대적으로 적을 것이다.
