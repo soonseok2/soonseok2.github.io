@@ -20,11 +20,18 @@ Process 와 Thread 는 언어의 혼용때문에 헷갈리는 개념 중 하나�
 > 실행중인 프로그램
 
 우리가 실제로 구현하는 코드 뭉치들은 프로그램이라고 불린다.
+
 Process 는 프로그램이라는 코드 뭉치들이 실행중인 상태를 말한다.
+
 다르게 얘기하자면 OS 로부터 시스템 자원을 할당 받는 작업의 단위라고도 할 수 있다.
+
 Code, Data, Heap, Stack 네 가지 영역으로 이루어진 메모리 공간을 확보하게 된다. (동시에 PCB 도 생성된다.)
+
 Process 자체적으로 작업하지는 않고, 하위 Thread 를 사용하여 작업을 진행한다.
+
 즉 Process 단위로 작업하는 것처럼 보이는 것은, 사실 해당 Process 내의 단일 Thread 가 작업하고 있는것이다.
+
+<br/>
 
 # Thread
 
@@ -104,6 +111,9 @@ Multi-core 는 둘 이상의 Core 에서 한꺼번에 하나 이상의 Process �
 # Summary
 
 Process 는 독립적으로 메모리 공간을 가지며, 서로 통신을 위해 IPC 가 필요하고, Context switching 비용이 크다.
+
 Thread 는 공유 메모리를 가지며, Context switching 비용이 적지만, 충돌 관리를 해야 한다.
+
 Concurrency 는 CPU 시분할로 동시에 실행하는 것 처럼 보이는 눈속임이다.
+
 Multi-core 는 물리적으로 여러개의 Core 가 병렬적으로 작업하는 것이다.
