@@ -25,6 +25,7 @@ HTTP는 HyperText Transfer Protocol의 약자로, 말 그대로 Hypertext를 웹
   - 상태 유지가 필요한 경우 쿠키와 세션 토큰 등을 사용한다.
 
 <br/>
+
 # HTTPS
 
 > HTTP와 보안의 결합
@@ -38,6 +39,7 @@ SSL(Secure Socket Layer) 이라는 계층을 사용하며, 이는 우리가 사�
 HTTPS는 SSL/TLS계층 위에서 동작하며, 기존 HTTP에서 SSL/TLS가 추가된 TCP/IP -> SSL/TLS -> HTTPS 순서로 동작한다.
 
 <br/>
+
 # SSL / TLS
 
 > 디지털 인증서와 키(key)를 이용한 보안 프로토콜
@@ -59,6 +61,7 @@ HTTPS는 SSL/TLS계층 위에서 동작하며, 기존 HTTP에서 SSL/TLS가 추�
 아무래도 추가적인 단계가 생긴만큼, 비용 발생 및 속도 저하 등의 문제가 있지만, 보안을 위해 대부분 필수적으로 사용하고 있다.
 
 <br/>
+
 # Summary
 
 HTTP는 주로 HTML 문서를 주고받기 위한 프로토콜이고, HTTPS는 SSL/TLS를 사용하여 보안성을 강화했다.
