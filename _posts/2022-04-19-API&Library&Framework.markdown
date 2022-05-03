@@ -9,9 +9,7 @@ category: CS
 
 > 소프트웨어와의 소통 방법
 
-API 에서 주목해야 할 단어는 Interface 이다.
-
-Inter:face 즉 서로 얼굴을 맞대고 소통을 한다고 생각하면 된다.
+API 에서 주목해야 할 단어는 Interface 이다. Inter:face 즉 서로 얼굴을 맞대고 소통을 한다고 생각하면 된다.
 
 이 소통은 사용자와 소프트웨어의 사이에서 이루어진다.
 
@@ -63,7 +61,7 @@ API 와 구분이 명확하지는 않아서 종종 혼동 될 수도 있다.
 
 하지만 Framework 는 Spring framework 를 예시로 들면, Spring framework 의 흐름을 따라서 Application 을 작성해야 한다.
 
-또 제어의 역전이 일어나서 수동적으로 사용하기도 한다.
+제어의 역전이 일어나서 수동적으로 사용되는 부분도 있다.
 
 전반적으로 Framework 의 경우에는 API 에 비하여 내 Application 에 끼치는 영향이 상대적으로 더 크다.
 
